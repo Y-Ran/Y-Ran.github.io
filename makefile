@@ -4,10 +4,9 @@ new_post:
 	hexo new post "post name"
 
 deploy:
+	hexo g
 	hexo d
 
-generate:
-	hexo g
-
 server:
+	hexo g
 	hexo s
